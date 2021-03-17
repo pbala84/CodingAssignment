@@ -7,12 +7,23 @@ services:
     build: ./app
     ports:
       - 80:80
+    environment:
+        MONGO_USERNAME: root
+        MONGO_PASSWORD: example
+    links:
+        - db
   db:
-    # we're using MongoDB here, but you can use any database or store you want
-    image: mongo:3.4-xenial
+    image: mongo
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+        - "27017:27017"
   adapter:
     # the service that scrapes the website and endpoints
     build: ./adapter
+    environment:
+        MONGO_USERNAME: root
+        MONGO_PASSWORD: example
+    links:
+        - db

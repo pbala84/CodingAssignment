@@ -1,0 +1,28 @@
+03/17/2021 11:03:29 PM CET  * Debugger is active!
+03/17/2021 11:03:29 PM CET  * Debugger PIN: 123-173-938
+03/17/2021 11:03:35 PM CET Current date is 2021-03-17 23:00:00
+03/17/2021 11:03:35 PM CET Fetched latest record - {'_id': ObjectId('60527c9f21eca974a94d6f4b'), 'status': 'OPERATIONAL', 'timestamp': datetime.datetime(2021, 3, 17, 23, 3, 11, 518000)}
+03/17/2021 11:03:35 PM CET 127.0.0.1 - - [17/Mar/2021 23:03:35] "[37mGET /excavator_operational HTTP/1.1[0m" 200 -
+03/17/2021 11:06:51 PM CET Current date is 2021-03-17 23:00:00
+03/17/2021 11:06:51 PM CET Fetched latest record - {'_id': ObjectId('60527d6f392bbf438a4fdac1'), 'status': 'OPERATIONAL', 'timestamp': datetime.datetime(2021, 3, 17, 23, 6, 39, 297000)}
+03/17/2021 11:06:51 PM CET 127.0.0.1 - - [17/Mar/2021 23:06:51] "[37mGET /excavator_operational HTTP/1.1[0m" 200 -
+03/17/2021 11:07:08 PM CET Current date is 2021-03-17 00:00:00
+03/17/2021 11:07:08 PM CET Got last operational record {'_id': ObjectId('60527d6f392bbf438a4fdc44'), 'cumulative_fuel_used': 48419.65, 'cumulative_hours_operated': 9683.93, 'most_recent_maintenance': '2021-03-15 00:00:00', 'timestamp': datetime.datetime(2021, 3, 17, 22, 56)}
+03/17/2021 11:07:08 PM CET 127.0.0.1 - - [17/Mar/2021 23:07:08] "[37mGET /excavator_operating_hours_since_last_maintenance HTTP/1.1[0m" 200 -
+03/17/2021 11:07:19 PM CET 127.0.0.1 - - [17/Mar/2021 23:07:19] "[37mGET /excavator_last_10_CAN_messages HTTP/1.1[0m" 200 -
+03/17/2021 11:07:59 PM CET 127.0.0.1 - - [17/Mar/2021 23:07:59] "[37mGET /excavator_last_10_CAN_messages HTTP/1.1[0m" 200 -
+03/17/2021 11:08:49 PM CET Current date/time is 2021-03-17 23:08:49.767310
+03/17/2021 11:08:49 PM CET Record 24 hours ago {'_id': ObjectId('60527d6f392bbf438a4fdb9d'), 'cumulative_fuel_used': 48360.0, 'cumulative_hours_operated': 9672.0, 'most_recent_maintenance': '2021-03-15 00:00:00', 'timestamp': datetime.datetime(2021, 3, 17, 0, 0)}
+03/17/2021 11:08:49 PM CET Latest record {'_id': ObjectId('60527d6f392bbf438a4fdc44'), 'cumulative_fuel_used': 48419.65, 'cumulative_hours_operated': 9683.93, 'most_recent_maintenance': '2021-03-15 00:00:00', 'timestamp': datetime.datetime(2021, 3, 17, 22, 56)}
+03/17/2021 11:08:49 PM CET 127.0.0.1 - - [17/Mar/2021 23:08:49] "[37mGET /excavator_average_fuel_rate_past_24h HTTP/1.1[0m" 200 -
+03/17/2021 11:13:51 PM CET Current date/time is 2021-03-17 23:13:51.426883
+03/17/2021 11:13:51 PM CET Record 24 hours ago {'_id': ObjectId('60527d6f392bbf438a4fdb9d'), 'cumulative_fuel_used': 48360.0, 'cumulative_hours_operated': 9672.0, 'most_recent_maintenance': '2021-03-15 00:00:00', 'timestamp': datetime.datetime(2021, 3, 17, 0, 0)}
+03/17/2021 11:13:51 PM CET Latest record {'_id': ObjectId('60527d6f392bbf438a4fdc44'), 'cumulative_fuel_used': 48419.65, 'cumulative_hours_operated': 9683.93, 'most_recent_maintenance': '2021-03-15 00:00:00', 'timestamp': datetime.datetime(2021, 3, 17, 22, 56)}
+03/17/2021 11:13:51 PM CET 127.0.0.1 - - [17/Mar/2021 23:13:51] "[37mGET /excavator_average_fuel_rate_past_24h HTTP/1.1[0m" 200 -
+03/17/2021 11:13:51 PM CET Current date/time is 2021-03-17 23:13:51.827416
+03/17/2021 11:13:51 PM CET Record 24 hours ago {'_id': ObjectId('60527d6f392bbf438a4fdb9d'), 'cumulative_fuel_used': 48360.0, 'cumulative_hours_operated': 9672.0, 'most_recent_maintenance': '2021-03-15 00:00:00', 'timestamp': datetime.datetime(2021, 3, 17, 0, 0)}
+03/17/2021 11:13:51 PM CET Latest record {'_id': ObjectId('60527d6f392bbf438a4fdc44'), 'cumulative_fuel_used': 48419.65, 'cumulative_hours_operated': 9683.93, 'most_recent_maintenance': '2021-03-15 00:00:00', 'timestamp': datetime.datetime(2021, 3, 17, 22, 56)}
+03/17/2021 11:13:51 PM CET 127.0.0.1 - - [17/Mar/2021 23:13:51] "[37mGET /excavator_average_fuel_rate_past_24h HTTP/1.1[0m" 200 -
+03/17/2021 11:14:07 PM CET Current date is 2021-03-17 23:00:00
+03/17/2021 11:14:07 PM CET Fetched latest record - {'_id': ObjectId('60527f17392bbf438a4fdd78'), 'status': 'OPERATIONAL', 'timestamp': datetime.datetime(2021, 3, 17, 23, 13, 43, 762000)}
+03/17/2021 11:14:07 PM CET 127.0.0.1 - - [17/Mar/2021 23:14:07] "[37mGET /excavator_operational HTTP/1.1[0m" 200 -
