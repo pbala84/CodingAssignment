@@ -1,11 +1,5 @@
 from datetime import datetime
 
-EXCAVSTATUS_CONFIG = {
-    #'initial_start_time': datetime(2021, 3, 1, 0, 0),
-    #'initial_end_time': datetime(2021, 3, 12, 14),
-    #'sleep_interval': 60 #in seconds
-}
-
 URL_CONFIG = {
     'auth' : 'https://corrux-challenge.azurewebsites.net/auth',
     'login': 'https://corrux-challenge.azurewebsites.net/login',
@@ -29,8 +23,4 @@ SCRAPE_HEADER = {
     'Content-Type': 'application/json',
 }
 
-##MONGO = {
-##    'username': 'root',
-##    'password': ''
-##    }
 
